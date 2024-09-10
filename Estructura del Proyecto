@@ -1,0 +1,16 @@
+/ (Raíz)
+│- index.js
+│- package.json
+│
+├── /config
+│   └── config.js
+├── /handler
+│   └── messageHandler.js
+├── /main
+│   └── bot.js
+├── /plugins
+│   └── pluginAntiver.js
+│   └── pluginVoiceNote.js
+│   └── pluginDeletedMessages.js
+├── /AdminSession (para la sesión)
+│   └── [Aquí se almacenarán las sesiones]

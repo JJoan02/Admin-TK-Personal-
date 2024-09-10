@@ -1,9 +1,4 @@
-import { startBot } from './main/Admin.js';
-import { setupConfig } from './config/config.js';
+import { startBot } from './main/admin.js';
+import config from './config/config.js';
 
-// Inicializa la configuración
-setupConfig();
-
-// Inicia el bot
-startBot();
-
+startBot(config);

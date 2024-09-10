@@ -1,4 +1,4 @@
-/ (Raíz)
+/Admin-TK(Personal)
 │- index.js
 │- package.json
 │
@@ -7,10 +7,10 @@
 ├── /handler
 │   └── messageHandler.js
 ├── /main
-│   └── bot.js
+│   └── admin.js
 ├── /plugins
 │   └── pluginAntiver.js
 │   └── pluginVoiceNote.js
 │   └── pluginDeletedMessages.js
-├── /AdminSession (para la sesión)
+├── /AdminSession
 │   └── [Aquí se almacenarán las sesiones]

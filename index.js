@@ -1,4 +1,4 @@
-import { startBot } from './main/admin.js';
-import config from './config/config.js';
+const { startBot } = require('./main/admin.js');
+const config = require('./config/config.js');
 
 startBot(config);
